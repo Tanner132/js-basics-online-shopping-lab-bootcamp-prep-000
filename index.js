@@ -10,7 +10,16 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write your code here
+ var getPrice =
+            Math.floor(Math.random() *100);
+            
+var itemName = [];
+var itemPrice = [];
+var newItems = [];
+
+  itemInfo.unshift(`itemName:, itemPrice: ${getPrice}, `);
+  
+  cart.unshift(`${itemInfo}`);
 }
 
 function viewCart() {
